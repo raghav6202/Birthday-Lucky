@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@300&family=Jaldi&family=Michroma&display=swap');
 
 :root
 {
@@ -12,26 +11,36 @@
 
 }
 
+*
+{
+
+    margin: 0rem;
+    padding: 0rem;  
+}
+
 body
 {
 /* 
     text-align: center; */
     background-color: var(--primary-color);
     margin: 0rem;
+    padding: 0rem;
     align-items: center;
  
 }
 h1
-{ background-color: var(--secondary-color); padding: 1rem; border-radius:1rem ; -webkit-border-radius:1rem ; -moz-border-radius:1rem ; -ms-border-radius:1rem ; -o-border-radius:1rem ;
+{ background-color: var(--secondary-color); padding: 1rem; 
+    /* border-radius:1rem ; 
+    -webkit-border-radius:1rem ; -moz-border-radius:1rem ; -ms-border-radius:1rem ; -o-border-radius:1rem ; */
 
 font-size: 2rem;
-font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Michroma', sans-serif;
 
 }
 
 .container
 {
-    font-family: 'Exo', sans-serif;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
     width: 100%;
     max-width: 500px;
     min-height: 200px;
@@ -39,7 +48,7 @@ font-family: 'Rubik Mono One', sans-serif;
    margin: auto;
     margin-top: 3rem;
     margin-bottom: 1rem;
-    border-radius: 3rem;
+    /* border-radius: 3rem; */
     
  display: block;
    
@@ -64,11 +73,7 @@ button{
     -o-border-radius: 1rem;
 }
 
-h3
-{
 
-
-}
 
 input
 {
@@ -99,6 +104,7 @@ padding: 3rem;
 background-color: #082032;
 color: cornsilk; 
 font-family: 'Jaldi', sans-serif;
+
 }
 
 
@@ -107,8 +113,8 @@ font-family: 'Jaldi', sans-serif;
     
     margin-top: 2rem;
 padding: 2.5rem;
-  
-    text-align: center; 
+  margin-left: 65rem;
+    /* text-align: center;  */
      color: cornsilk; 
 
 }
