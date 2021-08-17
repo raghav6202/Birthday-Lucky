@@ -1,7 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+
+
 :root
 {
-    --primary-color:BB371A;
-     --secondary-color:BB371A;
+    --primary-color: #EBA83A;
+     --secondary-color:#BB371A;
+     --tertiary-color:#297F87;
     
+
+}
+
+body
+{
+/* 
+    text-align: center; */
+    background-color: var(--primary-color);
+    margin: 0rem;
+    align-items: center;
+ 
+}
+h1
+{ background-color: var(--secondary-color); padding: 1rem; border-radius:1rem ; -webkit-border-radius:1rem ; -moz-border-radius:1rem ; -ms-border-radius:1rem ; -o-border-radius:1rem ;
+
+font-size: 2rem;
+font-family: 'Rubik Mono One', sans-serif;
+
+}
+
+.container
+{
+    font-family: 'Exo', sans-serif;
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    height: 100%;
+   margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 3rem;
+    
+ display: block;
+   
+    padding: 1.5rem 1rem;
+    text-align: center;
+    background-color: var(--tertiary-color);
+    font-size: large;
+
+}
+button{
+    padding: 1rem 5rem 1rem 5rem;;
+    display: block;
+    font-size: 1rem;
+    border-radius: 1rem;
+    margin: 1rem auto 0;
+    background-color:#28FFBF;
+    color: #064420;
+    font-weight: bold;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+h3
+{
+
+
+}
+
+input
+{
+
+
+font-weight: bolder;
+    font-size: large
+
+}
+#date-of-birth
+{
+    padding: 1rem;
+
+}
+    
+#lucky-number
+{
+
+    padding: 0.25rem;
+   
+
+
+}
+#foot
+{
+margin-top: 3rem;
+padding: 3rem;
+background-color: #082032;
+color: cornsilk; 
+font-family: 'Jaldi', sans-serif;
+}
+
+
+#dev
+{
+    
+    margin-top: 2rem;
+padding: 2.5rem;
+  
+    text-align: center; 
+     color: cornsilk; 
 
 }

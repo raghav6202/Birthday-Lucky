@@ -15,13 +15,13 @@ function compareValue(sum,luckyNumber)
 if(sum % luckyNumber.value === 0 )
 {
 
-    showMessage("Hurray!!! Your Birthday Is Lucky");
+    showMessage("Hurray!!! Your Birthday Is Lucky 🎉 🥳 ");
 
 }
 else
 {
 
-    showMessage("your birthday is not lucky");
+    showMessage("Your birthday is not lucky 😔");
 }
 
 
